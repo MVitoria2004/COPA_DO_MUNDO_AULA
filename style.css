@@ -1,0 +1,79 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+  }
+ 
+  header{
+    border: solid  2px red;
+    height: 14vh;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+
+  }
+
+  h2{
+    display:flex;
+    width: 30vw;
+    justify-content: flex-end;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+  }
+ 
+  header section{
+    display:flex;
+    
+    
+
+  }
+   header section img{
+    border:solid 3px red;
+    height: 12vh;
+    justify-content: space-evenly;
+   }
+   .Alemanha{
+    position: relative;
+    top:10px;
+   }
+    header section{
+      display:flex;
+      justify-content: space-evenly;
+    }
+    .primeiraParte{
+      display:flex;
+      align-items: center;
+      border:solid 2px black;
+      height: 70vh;
+      background-image: url(.//assets/estadio.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0px -327px;
+    }
+    h1{
+      margin-left:50px;
+      border:solid red;
+      width: 30vw;
+      color: white;
+      font-size: 60px;
+      font-family:"ROBOTO", sans-serif;
+    }
+    
+    .segundaParte img{
+      height: 45vh;
+    }
+    .segundaParte{
+      display:flex;
+      flex-wrap:wrap;
+      height: 156vh;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .bandeiraDaAlemanha{
+      position: relative;
+      top:25px;
+    }
+    
+ 
